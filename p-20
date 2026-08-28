@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    float length, height, area;
+
+
+    printf("Enter the base length (L): ");
+    scanf("%f", &length);
+
+    printf("Enter the height (H): ");
+    scanf("%f", &height);
+
+
+    area = 0.5f * length * height;
+
+
+    printf("The area of the perpendicular triangle is: %.2f\n", area);
+
+    return 0;
+}
